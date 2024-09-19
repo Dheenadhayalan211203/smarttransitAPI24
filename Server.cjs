@@ -47,7 +47,7 @@ const ticketSchema = new mongoose.Schema({
     routeno: Number
 });
 
-const Ticket = mongoose.model('ticket', ticketSchema);
+const Ticket = mongoose.model('tickets', ticketSchema);
 const Stop = mongoose.model('stops', stopSchema);
 const BusData = mongoose.model('BusData', busDataSchema);
 
